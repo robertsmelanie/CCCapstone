@@ -12,31 +12,116 @@
   <!-- Link to Font Awesome -->
   <script src="https://kit.fontawesome.com/2d5ed3a50a.js" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/5d8cb1f19f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="styleOS.css">
+  <script src="script.js" defer></script>
   <title>Our Story</title>
 </head>
 <body>
   <!-- Header -->
-  <header>
-    <div class="container">
-      <div id="branding">
-        <h1><span id="highlight">Redden Gardens - Our Story</span></h1>
+ <!-- header -->
+ <div class="header">
+  <!-- branding -->
+  <div id="branding">
+    <h1><span id="highlight">Redden Gardens</span></h1>
+  </div>
+ <nav>
+  <!-- first dropdown -->
+  <div class="dropdown" data-dropdown>
+    <!-- dropdown button -->
+    <button class="link"data-dropdown-button>Home</button>
+    <!-- dropdown grid, this is what's droping down -->
+    <div class="dropdown-menu information-grid">
+      <div>
+        <!-- first drop down menu -->
+        <div class="dropdown-heading">Welcome to Redden Gardens</div>
+        <div class="dropdown-links">
+          <a href="#about" class="link">About</a>
+          <a href="#services" class="link">Services</a>
+        </div>
       </div>
-      <nav>
-        <ul>
-          <li id="current">
-            <a href="#">Home</a>
-          </li>
-          <!-- <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#services">Services</a>
-          </li> -->
-        </ul>
-      </nav>
     </div>
-  </header>
+  </div>
+
+  <!-- second dropdown -->
+  <div class="dropdown" data-dropdown>
+    <!-- dropdown button -->
+    <button class="link" data-dropdown-button>Events</button>
+    <!-- dropdown grid, this is what's droping down -->
+    <div class="dropdown-menu information-grid">
+      <div>
+        <!-- first drop down menu -->
+        <div class="dropdown-heading">Events</div>
+        <div class="dropdown-links">
+          <a href="/CCCapstone/blank3.html" class="link">All</a>
+          <!-- Try the full URL <a href="/CCCapstone/blank3.html" class="link">All</a> -->
+          <a href="/CCCapstone/blank3.html" class="link">Up and comming</a>
+          <a href="/CCCapstone/blank3.html" class="link">Popular</a>
+        </div>
+      </div>
+      <!-- end of previous dropdown menu -->
+
+      <!-- end of previous dropdown menu -->
+      <div>
+        <!-- fourth drop down menu -->
+        <div class="dropdown-heading">Other</div>
+        <div class="dropdown-links">
+          <a href="#" class="link">Twitter</a>
+          <a href="#" class="link">Newsletter</a>
+          <a href="#" class="link">Discord</a>
+        </div>
+      </div>
+      <!-- end of previous dropdown menu -->
+    </div>
+    <!-- end of the Second dropdown grid -->
+  </div>
+  <!-- end of the Second dropdown -->
+
+  <!--  dropdown -->
+  <div class="dropdown" data-dropdown>
+    <!-- dropdown button -->
+    <button class="link" data-dropdown-button>About us</button>
+    <!-- dropdown menu -->
+    <div class="dropdown-menu">
+      <div>
+        <!-- fourth drop down menu -->
+        <div class="dropdown-heading">About us</div>
+        <div class="dropdown-links">
+          <a href="#boxes" class="link">Sharing is Caring</a>
+          <a href="#about" class="link">Background</a>
+          <a href="#history" class="link">history</a>
+        </div>
+      </div>
+    </div>
+    <!-- end of the dropdown menu -->
+  </div>
+<!-- end of the third dropdown -->
+
+    <!-- fourth dropdown -->
+    <div class="dropdown" data-dropdown>
+      <!-- dropdown button -->
+      <button class="link"data-dropdown-button>Education</button>
+      <!-- dropdown grid, this is what's droping down -->
+      <div class="dropdown-menu information-grid">
+        <div>
+          <!-- first drop down menu -->
+          <div class="dropdown-heading">Welcome to Redden Gardens</div>
+          <div class="dropdown-links">
+            <!-- <a href="#about" class="link">About</a> -->
+            <a href="education.html" class="link">How to care for your garden</a>
+
+            <!-- <a href="#services" class="link">Services</a> -->
+            <!-- <a href="#services" class="link">Services</a> -->
+            <a href="https://github.com/robertsmelanie/CCCapstone/blob/main/education.html#Health" class="link">Health Benefits</a>
+            <a href="https://htmlpreview.github.io/?https://github.com/robertsmelanie/CCCapstone/blob/main/education.html#Why" class="link">Why Garden?</a>
+            <a href="education##Community" class="link">Benefits to the Community</a>
+          </div>
+        </div>
+      </div>
+    </div>
+ </nav>
+ <!-- end of the navbar -->
+</div>
 
   <!-- Showcase -->
   <!-- <section id="showcase">
