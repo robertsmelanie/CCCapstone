@@ -67,6 +67,7 @@ ac-container {
 
 .ac-container input:checked + label:hover:after {
     background-image: url(../images/arrow_up.png);
+    overflow: scroll;
 }
 
 .ac-container input {
@@ -74,7 +75,7 @@ ac-container {
 }
 
 .ac-container article {
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255, 255, 0.5);
     margin-top: -1px;
     overflow: hidden;
     height: 0;
@@ -90,6 +91,7 @@ ac-container {
 .ac-container article p {
     font-style: normal;
     color: #777;
+    
     line-height: 23px;
     font-size: 10px;
     padding: 20px;
@@ -104,17 +106,27 @@ ac-container {
     -ms-transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
     transition: height 0.5s ease-in-out,box-shadow 0.1s linear; */
     box-shadow: 0 0 0 1px rgba(155,155,155,0.3);
+    
 }
 
 .ac-container input:checked ~ article.ac-small {
-    height: 140px;
+    height: 100px;
+
 }
 
 .ac-container input:checked ~ article.ac-medium {
-    height: 180px;
+    height: 300px;
+    overflow: scroll;
 }
 
 .ac-container input:checked ~ article.ac-large {
-    height: 230px;
+    height: 580px;
+    overflow: scroll;
+    
+    
 }
-
+img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
