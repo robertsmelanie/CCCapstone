@@ -12,6 +12,10 @@ body {
     background-color: #ebebeb;
 }
 
+.page-title2 {
+    margin-left: 15px;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -52,6 +56,17 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     opacity: .9;
 }
+
+.grow img{
+    transition: 1s ease;
+    }
+    
+    .grow img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    }
 
 .light li {
     margin-left: 20px;
@@ -270,7 +285,7 @@ i {
 
 #history input, #history textarea {
     padding: 5px;
-    width: 90%;
+    width: 0%;
 }
 
 /* Footer */
@@ -305,4 +320,13 @@ footer {
     #history > .container {
         grid-template-columns: 1fr;
     }
+}
+
+.fa-seedling {
+    font-size: medium;
+}
+
+.donate {
+    text-align: center;
+    margin: auto;
 }
